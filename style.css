@@ -1,0 +1,128 @@
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 0px 20px 20px #1d1a1a1a;
+}
+.wrapper{
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 20px;
+    color: #74797b;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    color: #0d8dc7;
+}
+section{}
+.about-section{
+    text-align: center;
+    padding: 50px 0px;
+}
+.about-section h1{
+    font-size: 70px;
+    color: #1a4b89;
+    text-transform: capitalize;
+    margin: 0 auto;
+    max-width: 850px;
+}
+.about-section h1 span{
+    color: #13156f;
+}
+.about-section p{
+    font-size: 20px;
+    margin: 0;
+    color: #234e5e;
+}
+
+section img{
+
+    margin: auto;
+    
+    display: block;
+    
+    width: 800px;
+    }
+
+    .feature-section{
+        padding:  100px 0;
+    }
+    .colum{
+        width: 50%;
+        float: left;
+    }
+    
+    .feature{
+            padding: 25px;
+    }
+    
+    .feature h2{
+        font-size: 80px;
+        color: #1a4b89;
+        margin: 0;
+    }
+    .feature h2 span{
+        color: #e46c16;
+    }
+    .feature p{
+        font-size: 20px;
+        margin: 0;
+        color: #234e5e
+    }
+    .align-right{
+        text-align: right;
+    }
+
+
+    .blog-section{}
+    .col{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+    .blog{
+    background-color: #f6ebf1;
+    padding: 40px;
+}
+    .blog img{
+    width: 300px;
+    height: 300px;
+}
+    .blog h3{
+    color: #16457c;
+    font-size: 22px;
+    margin: 0;
+}
+    .blog p{
+    color: #16457c;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 5px;
+}
